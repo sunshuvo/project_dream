@@ -1,0 +1,119 @@
+body{
+	padding:0px;
+	margin: 0px;
+	font-family: sans-serif;
+}		
+	/*Header Start*/
+	header{}
+		.header_content{
+			overflow:hidden;
+		}
+			/*Logo Start*/
+			.logo{
+				float:left;
+				width:22%;
+				margin: 1% 2%;
+			}
+				.logo img{
+					width:100%;
+				}
+			/*Logo End*/
+			/*Menu Start*/
+			.menu{
+				float: right;
+				width: 70%;
+				margin: 2.2% 2%;
+			}
+				.menu ul{
+					list-style:none;
+					text-align:right;
+					padding: 0px;
+					margin: 0px;
+					width:100%;
+				}
+					.menu ul li{
+						display:inline-block;
+						padding: 0% 2.5%;
+					}
+					.menu ul li:last-child{
+						padding-right:4%;
+					}
+						.menu ul li a{
+							text-decoration:none;
+							font-size: 1.6vw;
+							text-transform:uppercase;
+							color:black;
+							transition:0.3s;
+						}
+						.menu ul li a:hover{
+							color:#357ffc;
+						}
+			/*Menu End*/
+	/*Header End*/
+	/*Banner Section Start*/
+	.section_banner{
+		background-image: url("../img/banner.jpg");
+		background-repeat: no-repeat;
+		background-size:cover;
+		background-position: center;
+		padding: 8% 0px;
+	}
+		.banner_content{
+			margin-left:1%;
+			padding: 4%;
+			color:rgba(255,255,255,0.7);
+			width: 28%;
+			background-color: rgba(0,0,0,0.3)
+		}
+			.banner_content h1{
+				padding: 0px;
+				margin: 0px;
+				text-transform:uppercase;
+				font-weight:normal;
+				font-size:3vw;
+				line-height:120%;
+			}
+			.banner_content p{
+				padding: 0px;
+				margin: 2% 0 0 0;
+				font-size:1.8vw;
+			}
+			.banner_content button{
+				width: 60%;
+				margin-top: 10%;
+				padding: 4% 0;
+				color:rgba(255,255,255,0.7);
+				font-size:1.5vw;
+				border: none;
+				border-radius:6px;
+				background-color: rgba(0,0,0,0.4)
+			}
+	/*Banner Section End*/
+	
+	/*Footer Start*/
+	footer{
+		background-color:#ebebeb;
+		text-align:center;
+	}
+		.footer_content{
+			margin-top: 2%;
+			padding:1% 0;
+		}
+			.footer_content h3{
+				margin:0;
+				padding:0;
+				font-weight:normal;
+				font-size:1.6vw;
+			}
+			.footer_content p{
+				margin:1% 0;
+				padding:0;
+				font-size:1.3vw;
+			}
+		.social_link{
+			padding-bottom:1%;
+		}
+			.social_link img{
+				width:3%;
+			}
+	/*Footer End*/
