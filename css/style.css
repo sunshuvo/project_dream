@@ -90,6 +90,7 @@ body{
 			}
 	/*Banner Section End*/
 	
+/*Service Section start*/
 .section_service{
 	padding-top:2em;
 	padding-bottom:3em;
@@ -148,6 +149,7 @@ body{
 .service3{
 	padding-left:3%;
 }
+/*Service Section end*/
 	
 	/*Footer Start*/
 	footer{
