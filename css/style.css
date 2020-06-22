@@ -59,7 +59,7 @@ body{
 		padding: 8% 0px;
 	}
 		.banner_content{
-			margin-left:1%;
+			margin-left:0.2%;
 			padding: 4%;
 			color:rgba(255,255,255,0.7);
 			width: 28%;
@@ -90,9 +90,67 @@ body{
 			}
 	/*Banner Section End*/
 	
+.section_service{
+	padding-top:2em;
+	padding-bottom:3em;
+}
+.service_wrap{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+	text-align:center;
+}
+.service1,
+.service2,
+.service3{
+	float:left;
+	width:33.3%;
+	box-sizing:border-box;
+}
+.service1{
+	padding-right:3%;
+}
+.service_format{}
+.service_format h2{
+	color:#b9b8b3;
+	font-weight:normal;
+	font-size:2.2vw;
+}
+.service_format img{
+	width:100%;
+}
+.service_format p{
+	padding-top:1em;
+	font-weight:normal;
+	font-size:1.5vw;
+	line-height:2.8vw;
+}
+.service_format button{
+	background-color:#354a69;
+	border:none;
+	border-radius:0.2em;
+	width:35%;
+	font-size:1.5vw;
+	color:white;
+	padding: 0.4em 0;
+	cursor:pointer;
+	transition:0.3s;
+}
+.service_format button:hover{
+	color:black;
+}
+.service_format button:focus{
+	outline:0;
+}
+.service2{
+	padding:0 1.5%;
+}
+.service3{
+	padding-left:3%;
+}
+	
 	/*Footer Start*/
 	footer{
-		background-color:#ebebeb;
 		text-align:center;
 	}
 		.footer_content{
